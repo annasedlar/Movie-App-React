@@ -8,8 +8,9 @@ class Poster extends Component{
 		var posterLink='movie/' + this.props.poster.id; 
 		return(
 			<div className="col-sm-6 col-md-3 movie-poster">
-				<Link to={posterLink} />
+				<Link to={posterLink}>
 				<img src={imagePath} />
+				</Link>
 			</div>
 		)
 	}

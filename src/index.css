@@ -8,9 +8,15 @@ body {
 img {
 	margin: 10px;
 	border:  solid black 1px;
+	max-height: 500px;
 }
 .heading{
 	text-align: center;
 	font-size: 70px;
 	color: darkslateblue;
+}
+
+.centeredbuttons{
+	text-align: center;
+	margin: auto;
 }

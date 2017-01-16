@@ -32,11 +32,11 @@ class SingleMovie extends Component {
 		var posterPath='http://image.tmdb.org/t/p/original' + this.state.currentMovieData.poster_path;
 		return(
 			<div className="col-sm-8">
+				<h1> Revenue: {this.state.revenue}</h1>
+				<h1> Budget: {this.state.budget}</h1>
 				<a href={this.state.currentMovieData.homepage} target="blank">
 				<img src={posterPath} />
 				</a>
-				<h1> Revenue: {this.state.revenue}</h1>
-				<h1> Budget: {this.state.budget}</h1>
 			</div>
 			// /movie/:id
 		)
